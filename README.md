@@ -89,3 +89,13 @@ COMMON_PASSWORDS = {"123456", "password", "12345678", "qwerty", "abc123"}
 ## License
 
 This project is open source under the [MIT License](LICENSE).
+
+## Deployment Notes
+
+- Frontend Deployment with Hugging Face Spaces:
+To provide a live demo of the application, the Python files (app.py, auth.py, etc.) are included directly in the Hugging Face Spaces repository. This setup enables the Gradio interface to function seamlessly within the Hugging Face environment, offering an interactive user experience.
+
+- Backend Configuration with Neon.tech:
+The application utilizes a PostgreSQL database hosted on Neon.tech. Please note that Neon databases may have expiration policies or limited lifespans. If the existing database expires or becomes inaccessible, you will need to:
+	1.	Create a new database instance on Neon.tech.
+	2.	Update the connection credentials in the auth.py file to reflect the new database details, ensuring continued functionality of the authentication system.
