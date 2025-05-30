@@ -53,7 +53,7 @@ graph TD
 - Open the provided Google Colab notebook
 
 ## ⚡ Quick Start
-- Install dependencies:
+- Install from requirements.txt:
 ``` python
 !pip install bcrypt psycopg2-binary gradio
 ```
