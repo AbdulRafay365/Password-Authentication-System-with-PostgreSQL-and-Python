@@ -24,7 +24,19 @@ graph TD
 ```
 ## Preview of what was achieved
 - Neon Postgre Database:
-  
+   <p align="center">
+  <img width="800" alt="Neon PostgreSQL Database" src="https://github.com/user-attachments/assets/be90130e-3cc5-48d1-bbc3-a0491918053e" />
+</p>
+- Signup Page:
+<p align="center">
+<img width="1512" alt="Screenshot 2025-05-30 at 12 34 24 PM" src="https://github.com/user-attachments/assets/34479e7a-dac6-46c1-853e-3d95600185f9" />
+</p>
+
+- Login Page:
+<p align="center">
+<img width="1498" alt="Screenshot 2025-05-30 at 12 43 32 PM" src="https://github.com/user-attachments/assets/64665796-1a58-45b4-a5f2-b2964c989119" />
+</p>
+
 ## 🛠️ Prerequisites
 ### Database Setup
 - Create a PostgreSQL database on Neon.tech
