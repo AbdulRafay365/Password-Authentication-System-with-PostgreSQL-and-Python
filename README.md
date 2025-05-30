@@ -5,7 +5,7 @@
 </p>
 
 A secure user authentication system using PostgreSQL and Python, featuring bcrypt password hashing and strong password validation. Includes Gradio UI and runs in Google Colab.
-
+Live Link to the app (Hosted on Huggingface): [App](https://huggingface.co/spaces/abdulrafaymohammed/userpasswordauthapp)
 ## ✨ Features
 
 - ✅ **Zero Trust Design**: 8-point password validation
@@ -27,6 +27,8 @@ graph TD
    <p align="center">
   <img width="800" alt="Neon PostgreSQL Database" src="https://github.com/user-attachments/assets/be90130e-3cc5-48d1-bbc3-a0491918053e" />
 </p>
+
+
 - Signup Page:
 <p align="center">
 <img width="1512" alt="Screenshot 2025-05-30 at 12 34 24 PM" src="https://github.com/user-attachments/assets/34479e7a-dac6-46c1-853e-3d95600185f9" />
@@ -56,14 +58,11 @@ graph TD
 !pip install bcrypt psycopg2-binary gradio
 ```
 - Configure your database credentials in the notebook
-- Run the setup cells to create the users table
+- Run the setup cells in auth.py to create the users table
 - Test authentication with:
   - signup() - Create new users
   - login() - Authenticate existing users
-- Launch the Gradio UI:
-``` python
-# Run this block for the Gradio UI
-```
+- Launch the Gradio UI in app.py
 ``` mermaid
 pie title Password Requirements
     "Length ≥8" : 15
