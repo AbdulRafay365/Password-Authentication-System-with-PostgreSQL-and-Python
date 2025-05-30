@@ -123,4 +123,4 @@ with gr.Blocks(title="User Authentication System") as demo:
 
 # Launch the app
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(share=True)
